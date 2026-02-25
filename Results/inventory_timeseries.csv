@@ -1,0 +1,211 @@
+Port,Day,Inventory_tonnes
+Mumbai,0,1650.0
+Mumbai,1,2000.0
+Mumbai,2,2000.0
+Mumbai,3,2000.0
+Mumbai,4,2000.0
+Mumbai,5,2000.0
+Mumbai,6,2000.0
+Mumbai,7,2000.0
+Mumbai,8,2000.0
+Mumbai,9,1648.0
+Mumbai,10,1796.352
+Mumbai,11,1703.0544
+Mumbai,12,1351.3514
+Mumbai,13,2000.0
+Chennai,0,650.0
+Chennai,1,299.35
+Chennai,2,0.0
+Chennai,3,0.0
+Chennai,4,0.0
+Chennai,5,0.0
+Chennai,6,0.0
+Chennai,7,0.0
+Chennai,8,0.0
+Chennai,9,0.0
+Chennai,10,0.0
+Chennai,11,0.0
+Chennai,12,550.14381
+Chennai,13,2000.0
+Kolkata,0,700.0
+Kolkata,1,899.3
+Kolkata,2,1596.9017
+Kolkata,3,1792.8078
+Kolkata,4,1491.015
+Kolkata,5,1189.524
+Kolkata,6,888.33445
+Kolkata,7,587.44612
+Kolkata,8,286.85867
+Kolkata,9,0.0
+Kolkata,10,0.0
+Kolkata,11,0.0
+Kolkata,12,0.0
+Kolkata,13,0.0
+Kochi,0,1000.0
+Kochi,1,999.0
+Kochi,2,490.27716
+Kochi,3,13.455085
+Kochi,4,13.44163
+Kochi,5,0.0
+Kochi,6,0.0
+Kochi,7,0.0
+Kochi,8,0.0
+Kochi,9,0.0
+Kochi,10,0.0
+Kochi,11,0.0
+Kochi,12,330.57866
+Kochi,13,2000.0
+Visakhapatnam,0,1000.0
+Visakhapatnam,1,999.0
+Visakhapatnam,2,998.001
+Visakhapatnam,3,997.003
+Visakhapatnam,4,996.006
+Visakhapatnam,5,995.00999
+Visakhapatnam,6,994.01498
+Visakhapatnam,7,993.02097
+Visakhapatnam,8,992.02794
+Visakhapatnam,9,991.03592
+Visakhapatnam,10,990.04488
+Visakhapatnam,11,989.05484
+Visakhapatnam,12,988.06578
+Visakhapatnam,13,1514.0709
+Paradip,0,1000.0
+Paradip,1,499.0
+Paradip,2,0.0
+Paradip,3,0.0
+Paradip,4,0.0
+Paradip,5,0.0
+Paradip,6,0.0
+Paradip,7,0.0
+Paradip,8,0.0
+Paradip,9,0.0
+Paradip,10,0.0
+Paradip,11,0.0
+Paradip,12,0.0
+Paradip,13,0.0
+Goa,0,1000.0
+Goa,1,999.0
+Goa,2,1206.6157
+Goa,3,1705.4091
+Goa,4,1703.7037
+Goa,5,2000.0
+Goa,6,1998.0
+Goa,7,2000.0
+Goa,8,2000.0
+Goa,9,1697.5937
+Goa,10,1695.8961
+Goa,11,1694.2002
+Goa,12,1254.7658
+Goa,13,2000.0
+Tuticorin,0,949.05065
+Tuticorin,1,598.1016
+Tuticorin,2,92.368527
+Tuticorin,3,0.0
+Tuticorin,4,0.0
+Tuticorin,5,0.0
+Tuticorin,6,0.0
+Tuticorin,7,0.0
+Tuticorin,8,189.95876
+Tuticorin,9,631.7688
+Tuticorin,10,0.0
+Tuticorin,11,0.0
+Tuticorin,12,1000.0
+Tuticorin,13,2000.0
+Haldia,0,1000.0
+Haldia,1,999.0
+Haldia,2,498.001
+Haldia,3,0.0
+Haldia,4,0.0
+Haldia,5,0.0
+Haldia,6,0.0
+Haldia,7,0.0
+Haldia,8,0.0
+Haldia,9,0.0
+Haldia,10,0.0
+Haldia,11,0.0
+Haldia,12,0.0
+Haldia,13,0.0
+Mormugao,0,1000.0
+Mormugao,1,999.0
+Mormugao,2,1087.7363
+Mormugao,3,1110.9803
+Mormugao,4,1407.8694
+Mormugao,5,1406.4615
+Mormugao,6,1749.7065
+Mormugao,7,2000.0
+Mormugao,8,2000.0
+Mormugao,9,1998.0
+Mormugao,10,1996.002
+Mormugao,11,1994.006
+Mormugao,12,1501.5015
+Mormugao,13,2000.0
+Singapore,0,950.0
+Singapore,1,899.05
+Singapore,2,846.65295
+Singapore,3,545.8063
+Singapore,4,245.26049
+Singapore,5,100.1502
+Singapore,6,50.05005
+Singapore,7,0.0
+Singapore,8,100.0
+Singapore,9,199.9
+Singapore,10,299.7001
+Singapore,11,399.4004
+Singapore,12,499.001
+Singapore,13,848.502
+Colombo,0,1000.0
+Colombo,1,999.0
+Colombo,2,998.001
+Colombo,3,997.003
+Colombo,4,996.006
+Colombo,5,995.00999
+Colombo,6,994.01498
+Colombo,7,993.02097
+Colombo,8,992.02794
+Colombo,9,991.03592
+Colombo,10,990.04488
+Colombo,11,989.05484
+Colombo,12,1488.0658
+Colombo,13,2000.0
+Jebel Ali,0,1450.0
+Jebel Ali,1,1898.55
+Jebel Ali,2,2000.0
+Jebel Ali,3,2000.0
+Jebel Ali,4,2000.0
+Jebel Ali,5,2000.0
+Jebel Ali,6,1948.0
+Jebel Ali,7,1051.0511
+Jebel Ali,8,0.0
+Jebel Ali,9,203.51102
+Jebel Ali,10,653.30751
+Jebel Ali,11,1102.6542
+Jebel Ali,12,1551.5516
+Jebel Ali,13,2000.0
+Port Klang,0,750.0
+Port Klang,1,499.25
+Port Klang,2,248.75075
+Port Klang,3,0.0
+Port Klang,4,0.0
+Port Klang,5,0.0
+Port Klang,6,0.0
+Port Klang,7,0.0
+Port Klang,8,0.0
+Port Klang,9,0.0
+Port Klang,10,0.0
+Port Klang,11,0.0
+Port Klang,12,0.0
+Port Klang,13,0.0
+Shanghai,0,600.0
+Shanghai,1,199.4
+Shanghai,2,0.0
+Shanghai,3,0.0
+Shanghai,4,0.0
+Shanghai,5,0.0
+Shanghai,6,0.0
+Shanghai,7,0.0
+Shanghai,8,0.0
+Shanghai,9,0.0
+Shanghai,10,0.0
+Shanghai,11,0.0
+Shanghai,12,0.0
+Shanghai,13,0.0

@@ -1,0 +1,85 @@
+Origin,Destination,Day,Shipment_tonnes
+Singapore,Shanghai,0,400.0
+Tuticorin,Chennai,0,50.95
+Mumbai,Goa,1,208.61
+Mumbai,Mormugao,1,89.74
+Paradip,Kolkata,1,500.0
+Singapore,Shanghai,1,400.0
+Tuticorin,Chennai,1,350.0
+Haldia,Kolkata,2,500.0
+Jebel Ali,Chennai,2,46.65
+Jebel Ali,Kolkata,2,300.0
+Kochi,Chennai,2,257.72
+Kochi,Port Klang,2,250.0
+Mumbai,Goa,2,500.0
+Mumbai,Mormugao,2,24.33
+Mumbai,Port Klang,2,123.67
+Paradip,Kolkata,2,498.5
+Singapore,Port Klang,2,1.5
+Singapore,Shanghai,2,400.0
+Tuticorin,Chennai,2,350.0
+Tuticorin,Port Klang,2,155.13
+Haldia,Kolkata,3,497.5
+Jebel Ali,Paradip,3,300.0
+Jebel Ali,Tuticorin,3,148.0
+Kochi,Chennai,3,350.0
+Kochi,Port Klang,3,126.33
+Mumbai,Chennai,3,350.0
+Mumbai,Mormugao,3,298.0
+Singapore,Port Klang,3,250.0
+Singapore,Shanghai,3,400.0
+Tuticorin,Chennai,3,92.28
+Jebel Ali,Kolkata,4,300.0
+Jebel Ali,Tuticorin,4,148.0
+Mumbai,Chennai,4,350.0
+Mumbai,Goa,4,298.0
+Singapore,Port Klang,4,250.0
+Singapore,Shanghai,4,400.0
+Jebel Ali,Chennai,5,148.0
+Jebel Ali,Kolkata,5,300.0
+Kochi,Kolkata,5,13.43
+Mumbai,Chennai,5,303.35
+Mumbai,Mormugao,5,344.65
+Singapore,Port Klang,5,94.87
+Singapore,Shanghai,5,400.0
+Jebel Ali,Chennai,6,500.0
+Mumbai,Chennai,6,350.0
+Mumbai,Goa,6,4.0
+Mumbai,Mormugao,6,252.04
+Mumbai,Tuticorin,6,41.96
+Singapore,Shanghai,6,400.0
+Jebel Ali,Colombo,7,500.0
+Jebel Ali,Kochi,7,345.0
+Jebel Ali,Tuticorin,7,500.0
+Mumbai,Chennai,7,350.0
+Mumbai,Goa,7,2.0
+Mumbai,Mormugao,7,2.0
+Mumbai,Tuticorin,7,294.0
+Singapore,Shanghai,7,400.0
+Jebel Ali,Colombo,8,500.0
+Jebel Ali,Kochi,8,500.0
+Jebel Ali,Tuticorin,8,500.0
+Mumbai,Chennai,8,500.0
+Mumbai,Visakhapatnam,8,148.0
+Singapore,Port Klang,8,250.0
+Goa,Chennai,9,300.41
+Jebel Ali,Goa,9,246.49
+Mumbai,Chennai,9,500.0
+Mumbai,Tuticorin,9,500.0
+Singapore,Port Klang,9,250.0
+Mumbai,Tuticorin,10,500.0
+Singapore,Port Klang,10,250.0
+Tuticorin,Chennai,10,252.14
+Tuticorin,Visakhapatnam,10,378.99
+Mumbai,Kochi,11,241.5
+Mumbai,Tuticorin,11,500.0
+Paradip,Kolkata,11,300.0
+Singapore,Port Klang,11,250.0
+Tuticorin,Chennai,11,500.0
+Goa,Kochi,12,437.74
+Kochi,Colombo,12,13.42
+Kochi,Tuticorin,12,1.0
+Mormugao,Kochi,12,490.51
+Mumbai,Goa,12,500.0
+Mumbai,Mormugao,12,500.0
+Singapore,Port Klang,12,250.0
