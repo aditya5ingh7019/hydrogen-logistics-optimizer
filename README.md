@@ -1,168 +1,116 @@
-# Quantum-Assisted Optimization of Hydrogen Transport Networks Under Environmental Constraints
+# Optimization of Hydrogen Transport Networks Under Environmental Constraints
 
 ## Overview
 
-This project models and optimizes **hydrogen fuel transport routes** in a dynamically changing maritime environment using a **hybrid classical–quantum optimization approach**.
+- **Optimization Type**: Multi-period Mixed Integer Linear Programming (MILP)
+- **Objective**: Minimize total logistics cost (transportation + penalty for unmet demand)
+- **Time Horizon**: 14 days
+- **Ports**: 15 major ports across India and key international hubs
+- **Solver**: PuLP with CBC solver
 
-The goal is to minimize:
-
-* Transport fuel consumption
-* CO₂-equivalent emissions
-* Environmental risk exposure (storms, ocean currents)
-* Logistics inefficiency
-
-by solving a real-world **Travelling Salesman-type routing problem** using:
-
-* Classical heuristic algorithms
-* Quantum Approximate Optimization Algorithm (QAOA)
-
-This work lies at the intersection of:
-
-* Sustainable energy infrastructure
-* Environmental risk modelling
-* Quantum computing for combinatorial optimization
+**Key Features**:
+- Realistic maritime distances using `searoute` library
+- Boil-off losses during storage
+- Transit time delays for shipments
+- Inventory balance and storage capacity constraints
+- Production and demand balancing
+- Penalty system for unmet demand
 
 ---
 
 ## Problem Statement
 
-Hydrogen is expected to become a primary clean energy carrier in future maritime transport and industrial infrastructure.
-
-However, large-scale hydrogen distribution across ports is affected by:
-
-* Ocean currents
-* Stochastic weather conditions
-* Emission penalties
-* Variable fuel consumption
-
-These introduce **time-dependent routing costs**, making classical optimization approaches computationally expensive for large-scale networks.
-
-This project simulates a:
-
-> Dynamic hydrogen transport network across maritime ports
-
-and formulates route planning as an optimization problem solved using:
-
-* Greedy Heuristic
-* 2-Opt Local Search
-* Simulated Annealing
-* Genetic Algorithm
-* Quantum Approximate Optimization Algorithm (QAOA)
+Efficient distribution of green hydrogen is critical for the global energy transition. This model optimizes the movement of hydrogen between production hubs and demand centers while managing inventory levels and minimizing losses due to boil-off and logistics inefficiencies.
 
 ---
 
-## Methodology
+## Model Components
 
-### Step 1 — Environment Simulation
+### Physical & Operational Parameters
+- **Ship Capacity**: 500 tonnes per shipment
+- **Boil-off Rate**: 0.1% per day
+- **Ship Speed**: 720 km/day
+- **Initial Inventory**: 1000 tonnes at each port
+- **Storage Capacity**: 2000 tonnes per port
 
-A dynamic maritime model was created including:
+### Ports Included
+- **India**: Mumbai, Chennai, Kolkata, Kochi, Visakhapatnam, Paradip, Goa, Tuticorin, Haldia, Mormugao
+- **International**: Singapore, Colombo, Jebel Ali, Port Klang, Shanghai
 
-* Ocean current drift penalty
-* Storm risk (updated per route leg)
-* CO₂ emission cost proxy
-* Fuel consumption variability
-
-Each edge in the transport network has a:
-
-Time-dependent composite cost function:
-
-```
-Total Cost = Distance + Drift Penalty + Storm Risk + Emission Cost
-```
-
----
-
-### Step 2 — Classical Optimization
-
-The routing problem was solved using:
-
-* Greedy Algorithm
-* 2-Opt Improvement
-* Simulated Annealing
-* Genetic Algorithm
-
-These serve as classical baselines.
+### Data Inputs
+- Daily production at hubs (Mumbai, Jebel Ali, Singapore)
+- Daily demand at consumption centers
+- Real maritime route distances
 
 ---
 
-### Step 3 — Quantum Optimization
+## Technologies Used
 
-The routing problem was mapped to:
-
-* QUBO formulation
-* Ising Hamiltonian
-
-and solved using:
-
-* QAOA implemented via Qiskit
-
-Hybrid optimization pipeline:
-
-```
-Classical Preprocessing
-        ↓
-QUBO Mapping
-        ↓
-QAOA Circuit Optimization
-        ↓
-Candidate Route Sampling
-```
+- **Python**
+- **PuLP** (Linear Programming)
+- **NumPy**
+- **searoute** (Maritime distance calculation)
+- **Matplotlib** (Visualization)
+- **Pandas** (Data handling)
 
 ---
 
-## Tools & Technologies
+## Results (14-Day Optimization)
 
-* Python
-* NumPy
-* NetworkX
-* Matplotlib
-* Qiskit
-* PyCharm IDE
+**Optimization Status**: Optimal
 
----
+**Key Performance Indicators**:
 
-## Results
+| Metric                            | Value                  |
+|-----------------------------------|------------------------|
+| **Total System Logistics Cost**   | ₹ 19,059,930.23       |
+| **Total Hydrogen Transported**    | 25,070.42 tonnes      |
+| **Average Cost per Tonne**        | ₹ 760.26              |
+| **Total Hydrogen Produced**       | 20,300 tonnes         |
+| **Total Boil-off Loss**           | 138.23 tonnes (0.68%) |
+| **Total Demand**                  | 18,200 tonnes         |
+| **Demand Satisfaction Rate**      | **92.30%**            |
+| **Unmet Demand**                  | 1,400.80 tonnes (Shanghai) |
 
-Algorithms were benchmarked using:
-
-Normalized route cost:
-
-```
-Normalized Cost = Algorithm Cost / Best Classical Cost
-```
-
-Comparison included:
-
-* Fuel consumption
-* Environmental penalty
-* Route efficiency
-
-Hybrid quantum-assisted solutions demonstrated competitive performance under dynamic environmental conditions.
+**Average Daily Boil-off**: 9.87 tonnes/day
 
 ---
 
-## Applications
+## Visualizations
 
-* Hydrogen transport infrastructure planning
-* Green maritime logistics
-* Climate-aware shipping optimization
-* Sustainable supply chain routing
-* Smart energy distribution networks
+The model generates two key visualizations:
+1. **Inventory Evolution** – Hydrogen inventory levels at each port over 14 days
+2. **Shipment Heatmap** – Flow intensity across all shipping routes over time
 
 ---
 
-## Future Work
-
-* Scaling to larger port networks
-* Integration with real oceanographic datasets
-* Noise-aware quantum simulation
-* Hybrid classical–quantum metaheuristics
-
----
+## Project Structure
+hydrogen-logistics-optimizer/
+├── Multi-Period Hydrogen Maritime Network Optimization.ipynb                    # Main execution script
+├── Multi-Period Hydrogen Maritime Network Optimization.py                   # python script
+├── LICENSE/                      
+├── results/                   # Output logs and plots
+└── README.md
+text---
 
 ## Author
 
-Aditya Singh
-M.Sc. Applied Physics
-Amity University, Lucknow
+**Aditya Singh**  
+M.Sc. Applied Physics  
+Amity University, Lucknow  
 
+**Date**: February 2026
+
+---
+
+## Future Enhancements
+
+- Integration of quantum optimization algorithms (QAOA) for routing subproblems
+- Stochastic demand and production modeling
+- Real-time weather and ocean current integration
+- Multi-modal transportation (ship + rail/road)
+- Larger time horizons and port networks
+
+---
+
+**This project demonstrates strong capabilities in mathematical optimization, supply chain modeling, and operations research applied to clean energy logistics.**
